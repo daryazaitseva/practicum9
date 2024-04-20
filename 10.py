@@ -5,5 +5,6 @@ def count(a, b):
         return 0
     return count(a - b, b - 1) + count(a, b - 1)
 
+
 k = int(input())
 print(count(k, k))
