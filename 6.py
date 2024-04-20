@@ -4,4 +4,3 @@ for a in range(1, 10):
         CAB = AB * AB
         if CAB % 100 == AB and 99 < CAB < 1000:
             print(f'{AB} * {AB} = {CAB}')
-
